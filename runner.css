@@ -1,0 +1,142 @@
+body{
+	font-family:Tahoma;
+
+
+}
+
+table{
+	background-color: #74CFE3;
+	padding:15px;
+}
+
+th {
+	text-align:left;
+}
+
+table img{
+	border-radius:100%;
+	}
+
+table tr{
+	padding:10px;
+}
+.avatar{
+	border-radius:100%;
+	width:300px;
+	height:300px;
+}
+
+table#profile{
+	display:inline-block;
+	vertical-align:top;
+	margin-left:10%;
+	width:30%;
+	height:30%;
+	font-size:20px;
+}
+#tableDiv{
+	height:50%;
+	overflow:scroll;
+	display:inline-block;
+}
+
+table#forum{
+	border:1px solid black;
+	text-align:left;
+
+}
+
+
+table#forum img{
+	width:50px;
+	height:50px;
+}
+
+table#forum td{
+	padding-left:15px;
+
+}
+
+
+#picture{
+	display:inline-block;
+	
+}
+
+table#qTable{
+	width:100%;
+}
+
+.questionColor{
+	background-color:#E2F062;
+	box-shadow: 0 0 5px 10px #E2F062;
+	border-radius:10%;
+}
+
+
+
+.small_img{
+	width:50px;
+	height:50px;
+	float:right;
+}
+
+#navigation{
+	display:inline-block;
+	padding-left:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	border: 1px solid white;
+	text-align:center;
+	background-color:#E2F062;
+	width:100%;
+
+	
+	
+}
+
+#navigation a {
+	text-decoration:none;
+}
+#question{
+display:inline-block;
+vertical-align:top;
+width:40%;
+height:20%;
+}
+
+.barchart{
+	position:absolute;
+	display:inline-block;
+	margin-left:5px;
+}
+
+.barchart div{
+	display:inline-block;
+	background-color:#74CFE3;
+	margin-top:1px;
+	margin-left:5px;
+	padding:2px;
+	height:50px;
+}
+
+#vr{
+	display:inline-block;
+	width:100px;
+	height:384px;
+	color:red;
+	position:absolute;
+	line-height:750px;
+}
+
+hr{
+	width:40%;
+	margin-left:0px;
+	position:relative;
+	color:red;
+}
+
+#chartContainer{
+	display:block;
+	height:400px;
+}
